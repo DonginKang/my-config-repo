@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: ghcr.io/DonginKang/my-app-repo:initial # 👈 초기 이미지 태그. 나중에 CI가 이 부분을 자동으로 변경합니다.
+        image: ghcr.io/donginkang/my-app-repo:8bd3347ecc88c63465f95125d6582409b4c35321
         ports:
         - containerPort: 8080
